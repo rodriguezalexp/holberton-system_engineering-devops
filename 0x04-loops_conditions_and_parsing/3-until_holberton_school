@@ -4,5 +4,5 @@
 x=0
 until [ "$x" -eq 10 ]; do
 	echo "Holberton School"
-	let i=i+1
+	let x=x+1
 done
