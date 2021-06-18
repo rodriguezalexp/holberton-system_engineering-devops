@@ -2,5 +2,5 @@
 # displays Holberton School 10 times
 for i in $(seq 1 10);
 do
- echo "Holberton School"
+ 		echo "Holberton School"
 done
