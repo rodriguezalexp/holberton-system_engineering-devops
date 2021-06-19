@@ -4,7 +4,7 @@
 #+ "bad luck from Japan" after the 9th loop iteration
 #+ "bad luck from Italy" after the 17th loop iteration
 
-COUNTER=1
+x=1
 while [ "$x" -le 20 ]; do
     echo "$x"
     case "$x" in
