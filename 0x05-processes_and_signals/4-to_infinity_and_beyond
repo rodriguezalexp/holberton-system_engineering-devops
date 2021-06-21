@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# infinite loop with sleep condition
+
+while :
+do
+	echo "infinity and beyond"
+	sleep 2
+done
