@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# infinite loop with sleep condition:
+#+ add trap to pick up signal
+
+trap "echo I am invincible!!!" SIGTERM
+while :
+do
+	echo "To infinity and beyond"
+	sleep 2
+done
