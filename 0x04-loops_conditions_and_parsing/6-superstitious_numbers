@@ -18,5 +18,5 @@ while [ "$x" -le 20 ]; do
 	    echo "bad luck from Italy"
 	    ;;
     esac
-    let x=x+1
+    ((x++))
 done
