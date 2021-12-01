@@ -7,8 +7,6 @@
 * You must be able to explain system redundancy
 * Know all the mentioned acronyms: LAMP, SPOF, QPS
 
-![](https://www.google.com/search?q=web+infrastructure&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiHtdH46ML0AhUwQjABHf6fCcQQ_AUoAXoECAEQAw&biw=1294&bih=636&dpr=1#imgrc=Xqtq-YC8-V5MsM)
-
 
 Made By:
 
