@@ -1,4 +1,4 @@
-#new  file
+# new  file
 
 file { 'holberton':
     path    => '/tmp/school',
