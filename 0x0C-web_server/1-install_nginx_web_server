@@ -2,9 +2,7 @@
 # install nginx on your web server
 # Nginx should be listening on port 80
 
-sudo apt-get -y update
-sudo apt-get -y upgrade
+sudo apt-get update
 sudo apt-get -y install nginx
-sudo service nginx start
 echo "Hello World" > /var/www/html/index.html
 sudo service nginx restart
