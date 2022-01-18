@@ -3,6 +3,7 @@
 
 sudo apt-get -y update
 sudo apt-get -y install nginx
+sudo chmod 777 /var/www/html -R
 echo "Hello World" > /var/www/html/index.html
 sudo chmod 777 /etc/nginx/sites-enabled/default /etc/nginx/sites-enabled/
 sudo sed -i "/listen 80 default_server;/a rewrite ^/redirect_me https://www.youtube.com/watch?v=x09sTIjual8 permanent;" /etc/nginx/sites-enabled/default
