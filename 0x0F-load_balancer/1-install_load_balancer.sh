@@ -12,5 +12,5 @@ backend holbi-servers
 	balance roundrobin
 	server 2618-web-01 104.196.141.92:80 check
 	server 2618-web-02 75.101.202.218:80 check" > /etc/haproxy/haproxy.cfg
-sudo service nginx restart
+sudo service haproxy restart
 
