@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 # make Nginx listen on port 80
 sudo docker run -d --name nginx-server -p 80:80 nginx
-service nginx restart
+sudo service nginx restart
 
