@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
 # make Nginx listen on port 80
-sudo docker run -t -d --name my_nginx nginx
-sudo docker exec -it my_nginx /bin/bash
+rm /etc/nginx/sites-enabled/default
+ln -s /etc/nginx/sites-enabled/default /etc/nginx/sites-enabled/default
+service nginx restart
