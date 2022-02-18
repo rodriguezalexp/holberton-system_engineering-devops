@@ -5,7 +5,7 @@ import requests
 
 
 def number_of_subscribers(subreddit):
-    """function that queries the Reddit API 
+    """function that queries the Reddit API
     and returns the number of subscribers
     """
     headers = {"User-Agent": "Mozilla/5.0 (X11; Linux x86_64)\
