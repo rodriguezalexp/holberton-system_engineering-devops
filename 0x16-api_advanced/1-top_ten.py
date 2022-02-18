@@ -8,7 +8,7 @@ def top_ten(subreddit):
                                                AppleWebKit/537.36 \
                    (KHTML, like Gecko) Chrome/98.0.4758.87 Safari/537.36"}
 
-    url = 'https://www.reddit.com/r/{}/hot.json?limit=10&g="GLOBAL"'.\
+    url = 'https://www.reddit.com/r/{}/top.json?limit=10&g="GLOBAL"'.\
         format(subreddit)
     req_get = requests.get(url, allow_redirects=False, headers=headers)
     filter = req_get.json().get('data').get('children')
