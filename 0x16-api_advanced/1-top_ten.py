@@ -10,7 +10,7 @@ def top_ten(subreddit):
 
     url = 'https://www.reddit.com/r/{}/hot.json?limit=10&g="GLOBAL"'.\
         format(subreddit)
-    req_get = requests.get(url, headers=headers, allow_redirects=False)
+    req_get = requests.get(url, allow_redirects=False, headers=headers)
     filter = req_get.json().get('data').get('children')
 
     if req_get.status_code == 200:
